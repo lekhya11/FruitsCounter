@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+}
+
+.fruits-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.span {
+  color: #ffd569;
+}
+.image {
+  height: 500px;
+  width: 300px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+.eat-button {
+  background-color: #007bff;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+}
