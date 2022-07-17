@@ -8,11 +8,11 @@ class FruitsCounter extends Component {
     mangoesCount: 4,
   }
 
-  onClickEatBanana() {
+  onClickEatBanana = () => {
     this.setState(prevState => ({bananasCount: prevState.bananasCount + 1}))
   }
 
-  onClickEatMango() {
+  onClickEatMango=()=> {
     this.setState(prevState => ({mangoesCount: prevState.mangoesCount + 1}))
   }
 
